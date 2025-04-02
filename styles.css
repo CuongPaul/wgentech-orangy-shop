@@ -15,3 +15,31 @@
   color: #2c2a29;
   font-family: "Lora", serif;
 }
+
+.section {
+  display: flex;
+  margin-top: 40px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section__images {
+  display: flex;
+  justify-content: center;
+}
+
+.section__image {
+  width: 379px;
+  height: 617.89px;
+  margin: 0px 16px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.section__text {
+  color: #2c2a29;
+  margin-top: 40px;
+  max-width: 810px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
